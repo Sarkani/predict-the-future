@@ -7,6 +7,7 @@ import { MainLeftComponent } from './main/main-left/main-left.component';
 import { MainRightComponent } from './main/main-right/main-right.component';
 import { RightContainerComponent } from './main/main-right/right-container/right-container.component';
 import { LeftContainerComponent } from './main/main-left/left-container/left-container.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LeftContainerComponent } from './main/main-left/left-container/left-con
     MainLeftComponent,
     MainRightComponent,
     RightContainerComponent,
-    LeftContainerComponent
+    LeftContainerComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
